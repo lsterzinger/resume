@@ -8,7 +8,8 @@
 
 \usepackage[
     colorlinks=true,
-    urlcolor=blue
+    urlcolor=blue,
+    linkcolor=blue
 ]{hyperref}
 \begin{document}
 % Center the name over the entire width of resume:
@@ -18,7 +19,10 @@
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
 % Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{Address and Phone Censored for GitHub}
+ \moveleft.5\hoffset\centerline{
+    Personal contact info removed for publication on GitHub
+    
+}
  \moveleft.5\hoffset\centerline{\href{https://github.com/lsterzinger}{https://github.com/lsterzinger}}
 
 
@@ -29,12 +33,14 @@
 %                 interests in business applications programming, 
 %                 information processing, and management systems. 
  
+\section{INTEREST STATEMENT}
+I am an Atmospheric Science PhD candidate at UC Davis in my final year of studies. My research thus far has focused on numerical modelling of clouds and precipitation processes. I am passionate about open source and open science, and I have recently been involved in the development of Kerchunk, a software package aimed to make existing cloud-hosted datasets more accessible. 
 
 \section{EDUCATION} 
 
                 {\sl \textbf{PhD},} Atmospheric Science \hfill 2017 - Present \\ 
                 University of California, Davis, Davis, CA \\ 
-                Anticipated: Fall 2022
+                Anticipated Graduation: Fall 2022
 
                 {\sl \textbf{Bachelor of Science},} Atmospheric Sciences
                       % \sl will be bold italic in New Century Schoolbook (or
@@ -48,7 +54,33 @@
                 \hfill 2012 - 2017 \\
                 University of North Dakota, Grand Forks, ND
 
-  
+\section{TECHNICAL} 
+                {\sl Languages \& Software:} Python, Julia, Fortran \\
+                {\sl Operating Systems:} Unix/Linux, MacOS, Windows\\
+                {\sl Software Packages}:
+                    \begin{itemize}
+                        \item \href{https://github.com/lsterzinger/pyrams}{PyRAMS} (maintainer) - Package for working with RAMS model data
+                        \item \href{https://github.com/fsspec/kerchunk}{Kerchunk} (contributor) - Cloud performant access to NetCDF4 data
+                    \end{itemize}
+                
+                    \section{PUBLICATIONS}
+
+                    {\sl \textbf{Do arctic mixed-phase clouds sometimes dissipate due to insufficient aerosol?\\Evidence from comparisons between observations and idealized simulations}}
+                    \hfill (In Review) \\ Sterzinger, L. J., Sedlar, J., Guy, H., Neely III, R., \& Igel, A. L. \\ \textit{Atmospheric Chemistry and Physics} \\ \href{https://doi.org/10.5194/acp-2022-36}{https://doi.org/10.5194/acp-2022-36}
+    
+                    {\sl \textbf{The Effects of Ice Habit on Simulated Orographic Snowfall}} 
+                    \hfill 2021 \\ Sterzinger, L. J., \& Igel, A. L. - \textit{Journal of Hydrometeorology} \\ \href{https://doi.org/10.1175/JHM-D-20-0253.1}{https://doi.org/10.1175/JHM-D-20-0253.1}
+    
+                    % {\textbf{Sterzinger, L. J.}, \& Igel, A. L. (2021). The Effects of Ice Habit on Simulated Orographic Snowfall. \textit{Journal of Hydrometeorology}, 22(6), 1649-1661.}
+    
+    
+                    
+                    {\sl \textbf{Models in the Cloud: A Cost Exploration \\ of Cloud Computing for the Atmospheric Sciences}} \hfill Nov. 2017 \\
+                    News@Unidata Blog \\
+                    \href{https://www.unidata.ucar.edu/blogs/news/entry/models-in-the-cloud-a}{https://www.unidata.ucar.edu/blogs/news/entry/models-in-the-cloud-a}
+    
+    
+\newpage
 \section{WORK EXPERIENCE} 
 
 
@@ -59,22 +91,24 @@
                     \item Works on various research related to cloud and precipitation physics. Projects include:
                     \begin{itemize} \itemsep -2pt
                         \item Effect of ice crystal habit (shape) on orographic snowfall in the Sierra Nevada Mountains. (Funding: Internal)
-                        \item Examining the relationship between mixed-phase Arctic cloud dissipation and aerosol properties. (Funding: DOE ASR) 
+                        \item Examining the relationship between mixed-phase Arctic cloud dissipation and aerosol properties. (Funding: DOE ASR; A. Igel, PI) 
+                        \item Assessing relative impacts on aerosol contained within the boundary layer and free troposphere on the microphysics and other properties of Arctic mixed-phase clouds. (Funding: DOE ASR; A. Igel, PI)
                     \end{itemize}
                 \end{itemize}
 
                 {\sl \textbf{Intern}} \hfill Summer 2021 \\
                 Summer Internship in Parallel Computational Science (SIParCS) \\
-                National Center for Atmospheric Research (NCAR), Boulder, CO
+                National Center for Atmospheric Research (NCAR), Boulder, CO \\
                 \begin{itemize}
-                    \item Worked on development of tools to access cloud-hosted netCDF4 data 
-                \end{itemize}
-
+                    \item Worked with Chelle Gentemann (Farallon Inst.), Kevin Paul (NCAR), Julia Kent (NCAR), Rich Signell (USGS) and Martin Durant (Anaconda Inc.) on the development of the Kerchunk software library and its applicability and performance accessing cloud-hosted NOAA/NASA satellite data.
+                    \item Wrote documentation, blog posts, and example code on how to get started using Kerchunk - published open-source on GitHub.
+                \end{itemize} 
+% \newpage
                 {\sl \textbf{Undergraduate Research Assistant}} \hfill 2016 - 2017 \\
                 Dept. of Atmospheric Sciences, University of N. Dakota \\
                 Dr. Gretchen Mullendore, Faculty Advisor \\
                 \begin{itemize}\itemsep -2pt
-                    \item Worked on the “Big Weather Web” project examining potential uses for cloud infrastructure for numerical weather prediction.
+                    \item Worked on the “Big Weather Web” project examining potential uses for cloud computing infrastructure for numerical weather prediction.
                 \end{itemize}
 
                 {\sl \textbf{Undergraduate Teaching Assistant}} \hfill 2015 - 2017 \\
@@ -95,7 +129,7 @@
                 {\sl \textbf{UC Davis Graduate Student Association}} \\
                 
                 \begin{itemize}
-                    \item General Assembly Representative \hfill 2019-Present
+                    \item General Assembly Representative \hfill 2019-2022
                     \item Elections Committee \hfill 2019-2020
                 \end{itemize} 
 
@@ -103,44 +137,26 @@
                 Graduate Student Representative \hfill 2020-2021
 
 
-\section{PUBLICATIONS}
 
-                {\sl \textbf{Modeling Tenuous Arctic Mixed-Phase Clouds:\\Extreme Aerosol Forcing Simulations}}
-                \hfill (In Prep) \\ Sterzinger, L. J., Sedlar, J., Guy, H., Neely III, R., \& Igel, A. L.
+% \section{CONFERENCES}
 
-                {\sl \textbf{The Effects of Ice Habit on Simulated Orographic Snowfall}} 
-                \hfill 2021 \\ Sterzinger, L. J., \& Igel, A. L. - \textit{Journal of Hydrometeorology} \\ \href{https://doi.org/10.1175/JHM-D-20-0253.1}{https://doi.org/10.1175/JHM-D-20-0253.1}
+%                 {\sl \textbf{Arctic Mixed-Phase Cloud Dissipation and Its \\ Relationship to Low CCN Concentrations [Poster]}} \hfill Jan. 2021\\
+%                 American Meteorology Annual Meeting 2021
 
-                % {\textbf{Sterzinger, L. J.}, \& Igel, A. L. (2021). The Effects of Ice Habit on Simulated Orographic Snowfall. \textit{Journal of Hydrometeorology}, 22(6), 1649-1661.}
-
-
+%                 {\sl \textbf{Effects of Aerosol Concentration  on the Dissipation \\ of Arctic Mixed-Phase Clouds  [eLightning]}} \hfill Dec. 2020 \\
+%                 American Geophysics Union Fall Meeting 2020
                 
-                {\sl \textbf{Models in the Cloud: A Cost Exploration \\ of Cloud Computing for the Atmospheric Sciences}} \hfill Nov. 2017 \\
-                News@Unidata Blog \\
-                \href{https://www.unidata.ucar.edu/blogs/news/entry/models-in-the-cloud-a}{https://www.unidata.ucar.edu/blogs/news/entry/models-in-the-cloud-a}
+%                 {\sl \textbf{Effect of Ice Habit on Modeled \\ Predictions of Orographic Precipitation [Poster]}} \hfill Dec. 2019 \\
+%                 American Geophysics Union Fall Meeting 2019
 
-
-\section{CONFERENCES}
-
-                {\sl \textbf{Arctic Mixed-Phase Cloud Dissipation and Its \\ Relationship to Low CCN Concentrations [Poster]}} \hfill Jan. 2021\\
-                American Meteorology Annual Meeting 2021
-
-                {\sl \textbf{Effects of Aerosol Concentration  on the Dissipation \\ of Arctic Mixed-Phase Clouds  [eLightning]}} \hfill Dec. 2020 \\
-                American Geophysics Union Fall Meeting 2020
+%                 {\sl \textbf{Effects of Ice Habit on Sierra Nevada Snowfall \\ and Implications for Climate Change [Poster]}} \hfill Dec. 2018 \\
+%                 American Geophysics Union Fall Meeting 2018
                 
-                {\sl \textbf{Effect of Ice Habit on Modeled \\ Predictions of Orographic Precipitation [Poster]}} \hfill Dec. 2019 \\
-                American Geophysics Union Fall Meeting 2019
-
-                {\sl \textbf{Effects of Ice Habit on Sierra Nevada Snowfall \\ and Implications for Climate Change [Poster]}} \hfill Dec. 2018 \\
-                American Geophysics Union Fall Meeting 2018
-                
-                \section{COMPUTER SKILLS} 
-                {\sl Languages \& Software:} Python, Julia, MATLAB, Fortran, C \\
-                {\sl Operating Systems:} Unix/Linux, MacOS, Windows
 
 \section{MEMBERSHIPS}            
                 {American Meteorological Society} \\
-                {American Geophysics Unions}
+                {American Geophysics Union} \\
+                {European Geosciences Union}
 
 \section{LANGUAGES}
                 English \\
